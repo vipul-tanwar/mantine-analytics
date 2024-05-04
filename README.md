@@ -44,3 +44,27 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+##Repository Structure
+```bash
+MANTINE-ANALYTICS/
+├── src/                 # Src
+│    ├── components/     # React components
+│    │     └──common/    # Reusable React components
+│    │ 
+│    ├── data/           # Json data 
+│    │ 
+│    ├── helper/         # Helper Function
+│    │ 
+│    ├── interfaces/     # Typescript Interface
+│    │ 
+├── .gitignore           # Git ignore file
+├── package.json         # Node.js dependencies and scripts
+├── tsconfig.json        # Typescipt Config
+└── README.md            # Project readme
+```
+Package Version
+1. React : 18.3.1
+2. Mantine : 7.9.0
+3. Typscript : 4.4.2

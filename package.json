@@ -1,8 +1,10 @@
 {
-  "name": "manufac-analytics",
+  "name": "mantine-analytics",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@mantine/core": "^7.9.0",
+    "@mantine/hooks": "^7.9.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
@@ -39,5 +41,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "postcss": "^8.4.38",
+    "postcss-preset-mantine": "^1.15.0",
+    "postcss-simple-vars": "^7.0.1"
   }
 }
